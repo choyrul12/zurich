@@ -1,0 +1,41 @@
+.container {
+  position: absolute;
+  width:450px;
+  height:450px;
+  left:400px;
+  top:183px;
+}
+.roulette {
+  position: absolute;
+  margin: 0 auto;
+  width: 450px;
+  height: 450px;
+  background-color: red;
+  background-image: url('../img/spin2.png');
+  border-radius: 450px;
+}
+.spinner {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  border: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 200px;
+  left: 214px;
+  border-radius: 100%;
+  z-index: 1000;
+  background-color: red;
+}
+
+.spinner .pointer {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  top: -8px;
+  left: 15px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid red;
+}

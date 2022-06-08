@@ -1,0 +1,55 @@
+.txtBoxRow {
+   margin-bottom: 10px;
+   text-align:left;
+}
+
+.txtBoxRow input {
+   vertical-align: middle;
+   display:inline-block;
+}
+
+.txtBoxRow input.border1 {
+   border: 1px solid orange;
+}
+
+.txtBoxRow .addRemoveButton {
+   display: inline-block;
+   width: 17px;
+   height: 17px;
+   margin-left: 5px;
+   vertical-align: middle;   
+}
+
+.txtBoxRow .addRemoveButton:hover {
+   cursor: pointer;
+}
+
+.txtBoxRow .imgAdd {
+   background: url( '../images/add-inactive.png' );
+}
+
+.txtBoxRow .imgAdd:hover {
+   background: url( '../images/add-active.png' );
+}
+
+
+.imageRemove {
+   display: inline-block;
+   width: 17px;
+   height: 17px;
+   background: url( '../images/remove-inactive.png' );
+}
+
+.imageRemove:hover {
+   background: url( '../images/remove-active.png' );
+}
+
+
+
+.txtBoxRow .imgRemove {
+   background: url( '../images/remove-inactive.png' );
+}
+
+.txtBoxRow .imgRemove:hover {
+   background: url( '../images/remove-active.png' );
+}
